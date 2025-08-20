@@ -1,7 +1,7 @@
 <div align="center">
   <br />
     <a href="#" target="_blank">
-      <img src="Assets/Screenshot%202025-08-18%20at%201.45.12%20PM.png" alt="Project Banner">
+      <img src="Assets/banner.png" alt="Project Banner">
     </a>
   <br />
 
@@ -448,25 +448,25 @@ Quantify_app-main/
 
 ### Main Homepage - Landing Page
 <div align="center">
-  <img src="Assets/Screenshot%202025-08-20%20at%201.24.00%20PM.png" alt="Quantify Homepage" width="800">
+  <img src="Assets/homepage.png" alt="Quantify Homepage" width="800">
   <p><em>Welcome to Quantify - Modern business management platform with intuitive design</em></p>
 </div>
 
 ### Admin Dashboard
 <div align="center">
-  <img src="Assets/Screenshot%202025-08-20%20at%2010.51.56%20AM.png" alt="Admin Dashboard" width="800">
+  <img src="Assets/admin.png" alt="Admin Dashboard" width="800">
   <p><em>Comprehensive admin panel with user management, analytics, and system oversight</em></p>
 </div>
 
 ### Owner Dashboard  
 <div align="center">
-  <img src="Assets/Screenshot%202025-08-20%20at%2010.50.20%20AM.png" alt="Owner Dashboard" width="800">
+  <img src="Assets/owner.png" alt="Owner Dashboard" width="800">
   <p><em>Business owner interface with performance metrics and review management</em></p>
 </div>
 
 ### User Portal
 <div align="center">
-  <img src="Assets/Screenshot%202025-08-20%20at%2010.53.24%20AM.png" alt="User Portal" width="800">
+  <img src="Assets/user.png" alt="User Portal" width="800">
   <p><em>Customer-facing portal for business discovery and review submission</em></p>
 </div>
 
