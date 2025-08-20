@@ -1,7 +1,7 @@
 <div align="center">
   <br />
     <a href="#" target="_blank">
-      <img src="Assets/Screenshot 2025-08-18 at 1.45.12 PM.png" alt="Project Banner">
+      <img src="Assets/Screenshot%202025-08-18%20at%201.45.12%20PM.png" alt="Project Banner">
     </a>
   <br />
 
@@ -43,7 +43,6 @@ The platform provides three distinct user experiences:
 ## <a name="tech-stack">⚙️ Tech Stack</a>
 
 **Frontend:**
-- React 18
 - React Router v7
 - TypeScript
 - Tailwind CSS
@@ -449,25 +448,25 @@ Quantify_app-main/
 
 ### Main Homepage - Landing Page
 <div align="center">
-  <img src="Assets/Screenshot 2025-08-20 at 1.24.00 PM.png" alt="Quantify Homepage" width="800">
+  <img src="Assets/Screenshot%202025-08-20%20at%201.24.00%20PM.png" alt="Quantify Homepage" width="800">
   <p><em>Welcome to Quantify - Modern business management platform with intuitive design</em></p>
 </div>
 
 ### Admin Dashboard
 <div align="center">
-  <img src="Assets/Screenshot 2025-08-20 at 10.51.56 AM.png" alt="Admin Dashboard" width="800">
+  <img src="Assets/Screenshot%202025-08-20%20at%2010.51.56%20AM.png" alt="Admin Dashboard" width="800">
   <p><em>Comprehensive admin panel with user management, analytics, and system oversight</em></p>
 </div>
 
 ### Owner Dashboard  
 <div align="center">
-  <img src="Assets/Screenshot 2025-08-20 at 10.50.20 AM.png" alt="Owner Dashboard" width="800">
+  <img src="Assets/Screenshot%202025-08-20%20at%2010.50.20%20AM.png" alt="Owner Dashboard" width="800">
   <p><em>Business owner interface with performance metrics and review management</em></p>
 </div>
 
 ### User Portal
 <div align="center">
-  <img src="Assets/Screenshot 2025-08-20 at 10.53.24 AM.png" alt="User Portal" width="800">
+  <img src="Assets/Screenshot%202025-08-20%20at%2010.53.24%20AM.png" alt="User Portal" width="800">
   <p><em>Customer-facing portal for business discovery and review submission</em></p>
 </div>
 
@@ -544,7 +543,7 @@ VITE_API_BASE_URL=https://your-backend-name.onrender.com
 ### Deployment URLs Structure
 
 After deployment, your URLs will be:
-- **Frontend (Vercel)**: `https://your-app-name.vercel.app`
+- **Frontend (Vercel)**: `[Live](https://quantify-two.vercel.app/)`
 - **Backend (Render)**: `https://your-backend-name.onrender.com`
 
 **Important**: Update the CORS configuration in your Backend environment variables with the actual Vercel URL once deployed.
