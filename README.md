@@ -543,7 +543,7 @@ VITE_API_BASE_URL=https://your-backend-name.onrender.com
 ### Deployment URLs Structure
 
 After deployment, your URLs will be:
-- **Frontend (Vercel)**: **[Live](https://quantify-two.vercel.app/)**
+- **Frontend (Vercel)**: **[Live](https://quantify-prathameshs-projects-1268eb32.vercel.app/)**
 - **Backend (Render)**: `https://your-backend-name.onrender.com`
 
 **Important**: Update the CORS configuration in your Backend environment variables with the actual Vercel URL once deployed.
