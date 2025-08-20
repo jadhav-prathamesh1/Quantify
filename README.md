@@ -125,7 +125,7 @@ Make sure you have the following installed on your machine:
 **Cloning the Repository**
 
 ```bash
-git clone https://github.com/your-username/quantify-app.git
+git clone https://github.com/jadhav-prathamesh1/Quantify.git
 cd quantify-app
 ```
 
