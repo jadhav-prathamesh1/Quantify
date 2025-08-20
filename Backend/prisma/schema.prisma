@@ -1,0 +1,75 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id        Int      @id @default(autoincrement())
+  name      String   @db.VarChar(60)
+  email     String   @unique @db.VarChar(255)
+  password  String   @db.VarChar(255)
+  address   String?  @db.VarChar(400)
+  phone     String?  @db.VarChar(20)
+  role      Role     @default(USER)
+  status    Status   @default(PENDING) // only for store owners
+  createdAt DateTime @default(now()) @map("created_at")
+
+  // Relations
+  ownedStores Store[] @relation("StoreOwner")
+  ratings     Rating[]
+
+  @@map("users")
+}
+
+model Store {
+  id        Int      @id @default(autoincrement())
+  name      String   @db.VarChar(100)
+  email     String   @unique @db.VarChar(255)
+  address   String   @db.VarChar(400)
+  phone     String?  @db.VarChar(20)
+  category  String?  @db.VarChar(100)
+  ownerId   Int      @map("owner_id")
+  createdAt DateTime @default(now()) @map("created_at")
+
+  // Relations
+  owner   User     @relation("StoreOwner", fields: [ownerId], references: [id], onDelete: Cascade)
+  ratings Rating[]
+
+  @@map("stores")
+}
+
+model Rating {
+  id        Int      @id @default(autoincrement())
+  rating    Int      @db.SmallInt // 1-5 stars
+  comment   String?  @db.Text
+  storeId   Int      @map("store_id")
+  userId    Int      @map("user_id")
+  createdAt DateTime @default(now()) @map("created_at")
+
+  // Relations
+  store Store @relation(fields: [storeId], references: [id], onDelete: Cascade)
+  user  User  @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  // Unique constraint to prevent duplicate ratings
+  @@unique([storeId, userId])
+  @@map("ratings")
+}
+
+enum Role {
+  ADMIN
+  USER
+  OWNER
+}
+
+enum Status {
+  PENDING
+  ACTIVE
+  INACTIVE
+}
