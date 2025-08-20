@@ -27,9 +27,6 @@ export default function Login() {
     },
   });
 
-  // Watch form values for debugging
-  const watchedValues = watch();
-  console.log('Form values:', watchedValues);
 
   const onSubmit = async (data: LoginFormData) => {
     // Transform data to ensure no undefined values
