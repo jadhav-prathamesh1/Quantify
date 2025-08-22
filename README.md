@@ -221,7 +221,7 @@ After seeding the database, you can use these credentials:
 - **Owner**: owner@quantify.com / password123
 - **User**: user@quantify.com / password123
 
-## <a name="snippets">🕸️ Snippets</a>
+## <a name="snippets"> Snippets</a>
 
 <details>
 <summary><code>Frontend/tailwind.config.js</code></summary>
