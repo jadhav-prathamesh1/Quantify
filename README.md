@@ -21,17 +21,17 @@
     </div>
 </div>
 
-## 📋 <a name="table">Table of Contents</a>
+##  <a name="table">Table of Contents</a>
 
-1. 🤖 [Introduction](#introduction)
-2. ⚙️ [Tech Stack](#tech-stack)
-3. 🔋 [Features](#features)
-4. 🤸 [Quick Start](#quick-start)
-5. 🕸️ [Snippets (Code to Copy)](#snippets)
-6. 🔗 [Assets](#assets)
-7. 🚀 [More](#more)
+1.  [Introduction](#introduction)
+2.  [Tech Stack](#tech-stack)
+3.  [Features](#features)
+4.  [Quick Start](#quick-start)
+5.  [Snippets (Code to Copy)](#snippets)
+6.  [Assets](#assets)
+7.  [More](#more)
 
-## <a name="introduction">🤖 Introduction</a>
+## <a name="introduction"> Introduction</a>
 
 Quantify is a production-grade business management platform built with React, NestJS, and PostgreSQL. It features comprehensive role-based dashboards for administrators, business owners, and customers, offering advanced functionalities like business analytics, review management, store oversight, and user administration with modern UI/UX and real-time data visualization.
 
@@ -40,7 +40,7 @@ The platform provides three distinct user experiences:
 - **Owner Dashboard**: Business management tools with performance insights and review monitoring
 - **User Portal**: Customer-facing interface for business discovery and review submission
 
-## <a name="tech-stack">⚙️ Tech Stack</a>
+## <a name="tech-stack"> Tech Stack</a>
 
 **Frontend:**
 - React Router v7
@@ -63,51 +63,51 @@ The platform provides three distinct user experiences:
 - ESLint & Prettier
 - Docker Support
 
-## <a name="features">🔋 Features</a>
+## <a name="features"> Features</a>
 
-### 🔐 Authentication & Authorization
-👉 **JWT-Based Authentication**: Secure login/signup with HTTP-only cookies  
-👉 **Role-Based Access Control**: Three-tier access system (Admin, Owner, User)  
-👉 **Protected Routes**: Client-side route protection with automatic redirects  
-👉 **Session Management**: Persistent sessions with automatic token refresh  
+###  Authentication & Authorization
+ **JWT-Based Authentication**: Secure login/signup with HTTP-only cookies  
+ **Role-Based Access Control**: Three-tier access system (Admin, Owner, User)  
+ **Protected Routes**: Client-side route protection with automatic redirects  
+ **Session Management**: Persistent sessions with automatic token refresh  
 
-### 👨‍💼 Admin Dashboard
-👉 **User Management**: Complete CRUD operations for all users  
-👉 **Business Analytics**: Comprehensive statistics and performance metrics  
-👉 **Store Oversight**: Monitor and manage all registered businesses  
-👉 **Review Moderation**: Advanced filtering and management of user reviews  
-👉 **Data Visualization**: Interactive charts and graphs for business insights  
+###  Admin Dashboard
+ **User Management**: Complete CRUD operations for all users  
+ **Business Analytics**: Comprehensive statistics and performance metrics  
+ **Store Oversight**: Monitor and manage all registered businesses  
+ **Review Moderation**: Advanced filtering and management of user reviews  
+ **Data Visualization**: Interactive charts and graphs for business insights  
 
-### 🏪 Owner Dashboard
-👉 **Business Management**: Create, edit, and manage store information  
-👉 **Performance Analytics**: Revenue tracking, customer insights, and growth metrics  
-👉 **Review Management**: Monitor customer feedback and respond to reviews  
-👉 **Dashboard Charts**: Real-time data visualization with:
+###  Owner Dashboard
+ **Business Management**: Create, edit, and manage store information  
+ **Performance Analytics**: Revenue tracking, customer insights, and growth metrics  
+ **Review Management**: Monitor customer feedback and respond to reviews  
+ **Dashboard Charts**: Real-time data visualization with:
   - Reviews Over Time
   - Rating Distribution
   - Store Performance Metrics
-👉 **Profile Management**: Update business information and settings  
+ **Profile Management**: Update business information and settings  
 
-### 👥 User Portal
-👉 **Store Discovery**: Advanced search and filtering for businesses  
-👉 **Review System**: Submit and manage personal reviews and ratings  
-👉 **Profile Management**: Personal account settings and review history  
-👉 **Store Details**: Comprehensive business information and customer reviews  
-👉 **Rating Analytics**: Visual representation of business ratings  
+###  User Portal
+ **Store Discovery**: Advanced search and filtering for businesses  
+ **Review System**: Submit and manage personal reviews and ratings  
+ **Profile Management**: Personal account settings and review history  
+ **Store Details**: Comprehensive business information and customer reviews  
+ **Rating Analytics**: Visual representation of business ratings  
 
-### 🎨 Modern UI/UX Features
-👉 **Responsive Design**: Mobile-first approach with Tailwind CSS  
-👉 **Interactive Animations**: Smooth transitions with Framer Motion  
-👉 **Loading States**: Skeleton screens and loading indicators  
-👉 **Toast Notifications**: Real-time feedback for user actions  
-👉 **Data Tables**: Sortable and filterable tables with pagination  
+###  Modern UI/UX Features
+ **Responsive Design**: Mobile-first approach with Tailwind CSS  
+ **Interactive Animations**: Smooth transitions with Framer Motion  
+ **Loading States**: Skeleton screens and loading indicators  
+ **Toast Notifications**: Real-time feedback for user actions  
+ **Data Tables**: Sortable and filterable tables with pagination  
 
 ### 🔧 Advanced Technical Features
-👉 **API Architecture**: RESTful APIs with comprehensive error handling  
-👉 **Database Optimization**: Efficient queries with Prisma ORM  
-👉 **Type Safety**: Full TypeScript implementation  
-👉 **Error Boundaries**: Graceful error handling and user feedback  
-👉 **Code Architecture**: Modular, scalable, and maintainable codebase  
+ **API Architecture**: RESTful APIs with comprehensive error handling  
+ **Database Optimization**: Efficient queries with Prisma ORM  
+ **Type Safety**: Full TypeScript implementation  
+ **Error Boundaries**: Graceful error handling and user feedback  
+ **Code Architecture**: Modular, scalable, and maintainable codebase  
 
 ## <a name="quick-start">🤸 Quick Start</a>
 
@@ -479,7 +479,7 @@ Quantify_app-main/
 
 **Note**: The Lottie animation file (`Frontend/public/assets/animations/man-checking-strategy.json`) can be displayed in README files on platforms that support animation rendering, though GitHub's markdown renderer shows static content by default.
 
-## <a name="more">🚀 More</a>
+## <a name="more"> More</a>
 
 **Key Learning Outcomes**
 
@@ -504,7 +504,7 @@ Building this project provides hands-on experience with:
 - Multi-language support
 - Advanced search with Elasticsearch
 
-## 🚀 Deployment Guide
+##  Deployment Guide
 
 ### Backend Deployment (Render)
 
