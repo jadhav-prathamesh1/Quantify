@@ -217,9 +217,9 @@ npm run dev
 
 After seeding the database, you can use these credentials:
 
-- **Admin**: admin@quantify.com / password123
-- **Owner**: owner@quantify.com / password123
-- **User**: user@quantify.com / password123
+- **Admin**: new@admin.com / Admin@123
+- **Owner**: new@owner.com / Admin@123
+- **User**: new@user.com / Admin@123
 
 ## <a name="snippets"> Snippets</a>
 
